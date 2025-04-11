@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociația de Tenis Daria și Erika</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 30px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+
+        section {
+            padding: 30px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #003366;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .card p {
+            padding: 15px;
+            font-size: 1em;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 24px;
+            background-color: #003366;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.2s ease;
+        }
+
+        .button:hover {
+            background-color: #0055aa;
+        }
+
+        footer {
+            background-color: #eee;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Asociația de Tenis Daria și Erika</h1>
+        <p>Pasiune. Ambiție. Performanță.</p>
+    </header>
+
+    <section>
+        <h2>Rezultate Remarcabile</h2>
+        <div class="gallery">
+            <div class="card">
+                <img src="poza1.jpg" alt="Trofeu 18 ani">
+                <p><strong>Locul 1</strong> la Trofeul Agoram — categoria 18 ani (la doar 13 ani)</p>
+            </div>
+            <div class="card">
+                <img src="poza2.jpg" alt="Locul 2 Politehnica">
+                <p><strong>Locul 2</strong> la Politehnica București — categoria 16 ani</p>
+            </div>
+            <div class="card">
+                <img src="poza3.jpg" alt="Dublu 16 ani">
+                <p><strong>Locul 2</strong> la dublu, categoria 16 ani — turneu MAJOR</p>
+            </div>
+        </div>
+
+        <h2>Susține-ne!</h2>
+        <p>Ajută-ne să continuăm drumul către performanță. Redirecționează 3.5% din impozitul pe venit completând formularul 230.</p>
+        <a class="button" href="https://formular230.ro/asociatia-de-tenis-daria-si-erika" target="_blank">Completează formularul 230</a>
+    </section>
+
+    <footer>
+        Contact: ghidul.alimentar@yahoo.com<br>
+        &copy; 2025 Asociația de Tenis Daria și Erika
+    </footer>
+</body>
+</html>
